@@ -18,11 +18,11 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('ChatDetailCtrl', function($scope, $stateParams, $cordovaSocialSharing, Chats) {
+.controller('ChatDetailCtrl', function($scope, $stateParams, $cordovaSocialSharing, Chats) { 
   $scope.chat = Chats.get($stateParams.chatId);
-   $scope.shareAnywhere = function() {
-        $cordovaSocialSharing.share($scope.chat.name+ ": "+$scope.chat.lastText, "Your last chat message was:", null, "http://www.pyxis.com.uy");
-    }
+   $scope.shareAnywhere = function() { 
+        $cordovaSocialSharing.share($scope.chat.name+ ": "+$scope.chat.lastText, "Your last chat message was:", null, "http://www.pyxis.com.uy"); 
+    } 
 
 })
 

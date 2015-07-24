@@ -6,29 +6,29 @@ angular.module('starter.services', [])
   // Some fake testing data
   var chats = [{
     id: 0,
-    name: 'Ben Sparrow',
-    lastText: 'You on your way?',
-    face: 'https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png'
+    name: 'Tony Pacheco',
+    lastText: 'Con la 8, me aburri de hacerles goles',
+    face: 'http://historico.ovaciondigital.com.uy/11/04/13/174797_298.jpg'
   }, {
     id: 1,
-    name: 'Max Lynx',
-    lastText: 'Hey, it\'s me',
-    face: 'https://avatars3.githubusercontent.com/u/11214?v=3&s=460'
+    name: 'Dario Rodriguez',
+    lastText: 'Son cosas del futbol..',
+    face: 'http://oi60.tinypic.com/ta6mah.jpg'
   }, {
     id: 2,
-    name: 'Adam Bradleyson',
-    lastText: 'I should buy a boat',
-    face: 'https://pbs.twimg.com/profile_images/479090794058379264/84TKj_qa.jpeg'
+    name: 'Marcelo Zalayeta',
+    lastText: 'Muy feliz por haber llegado a un acuerdo de renovación con el club.',
+    face: 'http://www.aguantenche.com.uy/wp-content/uploads/2012/09/zala.jpg'
   }, {
     id: 3,
-    name: 'Perry Governor',
-    lastText: 'Look at my mukluks!',
-    face: 'https://pbs.twimg.com/profile_images/598205061232103424/3j5HUXMY.png'
+    name: 'Pablo Javier Bengoechea',
+    lastText: 'Pero bueno nosotros tenemos un equipo fuerte pero bueno.',
+    face: 'https://pbs.twimg.com/media/CIUbH_6WIAAHOBm.jpg'
   }, {
     id: 4,
-    name: 'Mike Harrington',
-    lastText: 'This is wicked good ice cream.',
-    face: 'https://pbs.twimg.com/profile_images/578237281384841216/R3ae1n61.png'
+    name: 'Jonathan Sandocan',
+    lastText: 'Todavia no puedo creer que sigo aca!!!',
+    face: 'http://www.ovaciondigital.com.uy/files/article_main/uploads/2015/03/19/550b82790266b.jpg'
   }];
 
   return {
